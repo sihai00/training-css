@@ -7,8 +7,6 @@ htlm{
 
 }
 body{
-  width: 100px;
-  height: 100px;
   background-color: red;
 }
 ```
@@ -19,8 +17,6 @@ htlm{
   background-color: green;
 }
 body{
-  width: 100px;
-  height: 100px;
   background-color: red;
 }
 ```
@@ -34,7 +30,6 @@ html{
   margin: 20px;
   padding: 20px;
   border: 20px solid #000;
-  background-color: green;
 }
 body{
   width: 100px;
@@ -42,7 +37,6 @@ body{
   margin: 20px;
   padding: 20px;
   border: 20px solid #000;
-  background-color: red;
 }
 ```
 
@@ -52,23 +46,11 @@ body{
 ```css
 html{
   background-color: green;
-  margin: 20px;
-  padding: 20px;
-  border: 20px solid #000;
-  height: 100%;
 }
 body{
   background-color: red;
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  border: 20px solid #000;
 }
 .test{
-  width: 100px;
-  height: 100px;
-  background-color: blue;
   position: absolute;
   top: 0;
   left: 0;
@@ -76,26 +58,15 @@ body{
 ```
 
 ## 浏览器滚动条
-最顶层的滚动条元素是html [效果地址](https://sihai00.github.io/training-css/tab/4-1.html)
+最顶层的滚动条元素是html [效果地址](https://sihai00.github.io/training-css/2/4-1.html)
 
 ```css
 html{
   background-color: green;
-  margin: 20px;
-  padding: 20px;
-  border: 20px solid #000;
-  height: 150%;
-  /*overflow: hidden;*/
   overflow: auto;
 }
 body{
   background-color: red;
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  border: 20px solid #000;
-  /*overflow: scroll;*/
   overflow: hidden;
 }
 ```
