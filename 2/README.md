@@ -1,7 +1,7 @@
-# 有关html\body的一些点
+# 有关html和body的一些点
 
-## html\body的html的background属性(html会覆盖body的background属性)
-1. html的background-color没设置，body的background-color设置，浏览器背景色取body [效果地址](./1-1.html)
+## html和body的html的background属性(html会覆盖body的background属性)
+1. html的background-color没设置，body的background-color设置，浏览器背景色取body [效果地址](https://sihai00.github.io/training-css/2/1-1.html)
 ```css
 htlm{
 
@@ -13,7 +13,7 @@ body{
 }
 ```
 
-2. html和body同时设置background-color，浏览器背景色取html，body的背景色被覆盖 [效果地址](./1-2.html)
+2. html和body同时设置background-color，浏览器背景色取html，body的背景色被覆盖 [效果地址](https://sihai00.github.io/training-css/2/1-2.html)
 ```css
 htlm{
   background-color: green;
@@ -25,8 +25,8 @@ body{
 }
 ```
 
-## html\body的盒子属性
-html\body都可以设置margin、padding、width、height(height: 100%很有用) [效果地址](./2-1.html)
+## html和body的盒子属性
+html和body都可以设置margin、padding、width、height(height: 100%很有用) [效果地址](https://sihai00.github.io/training-css/2/2-1.html)
 
 ```css
 html{
@@ -46,8 +46,8 @@ body{
 }
 ```
 
-## html\body的定位属性 
-绝对定位元素的相对最顶层元素是屏幕(viewport)[效果地址](./3-1.html)
+## html和body的定位属性 
+绝对定位元素的相对最顶层元素是屏幕(viewport)[效果地址](https://sihai00.github.io/training-css/2/3-1.html)
 
 ```css
 html{
@@ -76,7 +76,7 @@ body{
 ```
 
 ## 浏览器滚动条
-最顶层的滚动条元素是html [效果地址](./4-1.html)
+最顶层的滚动条元素是html [效果地址](https://sihai00.github.io/training-css/tab/4-1.html)
 
 ```css
 html{
