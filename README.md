@@ -5,9 +5,5 @@
 | 标题 | 关键词 | 地址 |
 |:---:|:---:|:---:|
 | 文字内容溢出省略号表示 | text-overflow | [链接](./1/) |
-| 居中 | text-align、position、flex、table | [链接](./3/) |
-
-## css 属性
-| 标题 | 关键词 | 地址 |
-|:---:|:---:|:---:|
 | 有关html\body的一些点 | html\body | [链接](./2/) |
+| 居中 | text-align、position、flex、table | [链接](./3/) |
